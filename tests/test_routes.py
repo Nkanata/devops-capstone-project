@@ -126,7 +126,7 @@ class TestAccountService(TestCase):
     # ADD YOUR TEST CASES HERE ...
 
     ######################################################################
-    # G E T  A N  A C C O U N T   T E S T   C A S E 
+    # G E T  A N  A C C O U N T   T E S T   C A S E
     ######################################################################
 
     def test_get_account(self):
@@ -145,7 +145,7 @@ class TestAccountService(TestCase):
         self.assertEqual(resp.status_code, status.HTTP_404_NOT_FOUND)
 
     ######################################################################
-    # L I S T   A C C O U N T S   T E S T   C A S E 
+    # L I S T   A C C O U N T S   T E S T   C A S E
     ######################################################################
 
     def test_get_account_list(self):
